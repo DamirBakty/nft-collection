@@ -10,7 +10,7 @@ export default function handler(req, res) {
     // More info can be found here: https://docs.opensea.io/docs/metadata-standards
     res.status(200).json({
       name: "Damir #" + tokenId,
-      description: "Crypto Dev is a collection of developers in crypto",
-      image: image_url + tokenId,
+      description: "NFt bought on testnet",
+      image: image_url,
     });
   }
